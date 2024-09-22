@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block title %}
+    About
+{% endblock title %}
+{% block body %}
+    <div class="container text-center mt-5">
+        <h2 style="font-size: 2.5rem; color: black;">About This Website</h2>
+        <p style="line-height: 1.8; font-size: 1.2rem;">
+            Welcome to my ToDo website! This platform allows you to efficiently manage your tasks 
+            by providing functionalities to add, update, and delete tasks seamlessly. 
+            It is built using <strong>Flask</strong> as the backend framework, which handles 
+            all database operations and serves the web pages dynamically. 
+
+            <br><br>
+
+            The frontend is crafted with <strong>Bootstrap</strong> to ensure a clean, 
+            responsive, and user-friendly interface. Bootstrap’s components help in designing 
+            a visually appealing layout that adapts to different screen sizes.
+
+            <br><br>
+
+            <strong style="font-size: 1.5rem;">How It Works:</strong>
+            <ul style="text-align: left; margin-left: 20px; font-size: 1.3rem;">
+                <li><strong>Create Tasks:</strong> Users can create new tasks by entering a title and a description, 
+                followed by clicking the submit button. This adds the task to the list of ToDos.</li>
+                
+                <li><strong>Update Tasks:</strong> Users can modify existing tasks by clicking the "Update" button 
+                next to the respective task, allowing changes to the title and description.</li>
+                
+                <li><strong>Delete Tasks:</strong> To remove tasks, users can click the "Delete" button. 
+                This helps maintain an organized task list, ensuring that only relevant tasks are kept.</li>
+            </ul>
+
+            <br><br>
+
+            This project showcases the synergy between Flask for backend functionality and Bootstrap for frontend styling, 
+            resulting in an effective and enjoyable user experience. I hope you find it helpful in managing your tasks!
+
+            <br><br>
+        </p>
+        <a href="/" class="btn btn-primary mt-3">Back to Home</a>
+    </div>
+{% endblock body %}
